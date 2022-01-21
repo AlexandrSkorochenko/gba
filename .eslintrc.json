@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
