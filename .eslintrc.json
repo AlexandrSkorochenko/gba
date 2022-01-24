@@ -8,5 +8,10 @@
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }
