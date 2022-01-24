@@ -1,8 +1,10 @@
 import React from 'react';
+import { useTranslate } from './translations';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const { t } = useTranslate();
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React and {t('testCheck')}
         </a>
       </header>
     </div>
